@@ -8,14 +8,12 @@
 
 
 ## [1] variables
-
 new_income <- 35000 * 1.2
 expense <- 22000
 saving <- new_income - expense
 
 
 ## remove variables
-
 rm(income)
 
 
@@ -29,7 +27,6 @@ movielover <- TRUE #FALSE
 today_date <- as.Date("2024-07-02")
 
 ## check data types
-
 class(my_age)
 class(my_name)
 class(movielover)
@@ -37,13 +34,10 @@ class(today_date)
 
 
 ## change data types
-
 as.numeric("100")
 as.numeric(TRUE)
 as.numeric(FALSE)
-
 as.character(100)
-
 as.logical(1)
 as.logical(0)
 
@@ -62,18 +56,17 @@ ages <- c(27, 30, 33, 35, 45)
 marvel_lover <- c(T, T, F, T)
 my_specail_vector <- c(a=1, b=2, d=3)
 
-
-#subset by position
+        #subset by position
 friend[6]
 friend[1:3]
 friend[c(1,3,5)]
 
-#subset by condition
+        #subset by condition
 ages >= 30
 ages[ages >= 30]
 friend[ages >= 30]
 
-#subset by name 
+        #subset by name 
 my_specail_vector["a"]
 
 
@@ -85,7 +78,7 @@ m2 <- matrix(5:8, ncol=2, byrow = TRUE)
 my_vec <- 1:25
 matrix(my_vec, nrow=5,byrow = T)
 
-# Vectorization  
+        # Vectorization  
 m1 +100
 m1 * m2
 m1 %% m2
@@ -106,22 +99,21 @@ jon <- list(
                   "Infinity war")
 )
 
-#subset by position output key:value
+        #subset by position output key:value
 jon[3]
 
-#subset by position output value
+        #subset by position output value
 jon[[3]]
 
-#subset by position 
+        #subset by position 
 jon$city
 jon$mavel_movie[2]
 jon$mavel_movie[c(2,3)]
 
-#subset by name 
+        #subset by name 
 jon[["occupation"]]
 
-
-# assign new key = value data structure ##JSON
+        # assign new key = value data structure ##JSON
 mary <- list(
   full_name = "mary anne",
   age =28,
@@ -130,8 +122,7 @@ mary <- list(
   fav_team = "Liverpool", "Chelsea"
 )
 
-
-#nested list
+        #nested list
 custumer <- list(id01 =jon,
                  id02 = mary)
 
@@ -145,19 +136,19 @@ ages <- c(28,34,29,30,34)
 dog_lover <- c(T,T,F,F,F)
 city <- c("BKK", "LON","LON","TOK","TOK")
 
-#create the data frame
+        #create the data frame
 df <- data.frame(id, friends,ages, dog_lover, city)
 
-#structure of this df
+        #structure of this df
 str(df)
 
-#dimension
+        #dimension
 dim(df)
 
-#summary
+        #summary
 summary(df)
 
-#subset dataframe #df[row, column]
+        #subset dataframe #df[row, column]
 df[3, 2]
 df[5, 2]
 df[1:3, ]
@@ -165,8 +156,9 @@ df[1:3, 4:5]
 df[1:2, c(2,5)]
 df[1:3, c("friends","city")]
 
-#subset by condition
+        #subset by condition
 df[df$ages <30, ]
+
 
 #three ways that we can subset in R
 # []
@@ -177,7 +169,6 @@ df[df$ages <30, ]
 df[df$dog_lover == T, ]
 df[df$friends == "nnphaa", ]
 df[df$city != "LON", ]
-
 
 # working with dataframe
 # create new column
@@ -375,10 +366,6 @@ fb_login <- function() {
 
 
 
-###homework 
-###chat bot order pizza
-
-###game rock paper scissor
 
 
 
