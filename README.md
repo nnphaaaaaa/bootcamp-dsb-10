@@ -7,11 +7,11 @@ my data science and analytics projects
 2. SQL churn analytics
 3. R programming - rock paper crissor
 4. looker GA4 dashboard
-5.  Linear regression model
+5.  Linear regression model using caret 
 
 
 ### contact me
-reach out to me at hohoh@gmail.com
+reach out to me at napha.phayak@gmail.com
 
 
 
