@@ -23,7 +23,7 @@ play_game <- function() {
       message("DRAW!!")
       result[2] <- result[2]+1
     } else if (
-      (user_hand == "hammer"    && comp_hand == "scissor")||
+      (user_hand == "hammer"  && comp_hand == "scissor")||
       (user_hand == "paper"   && comp_hand == "hammer")   ||
       (user_hand == "scissor" && comp_hand == "paper")
     ) {
