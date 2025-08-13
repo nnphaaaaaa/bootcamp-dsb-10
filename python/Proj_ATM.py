@@ -1,3 +1,5 @@
+from random import choice
+
 class ATM:
 
     def __init__(self, name, bank, balance):
