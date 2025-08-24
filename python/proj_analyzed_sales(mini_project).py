@@ -27,8 +27,8 @@ df.shape
 # see data frame information using .info()
 df.info()
 
-"""We can use `pd.to_datetime()` function to convert columns 'Order Date' and 'Ship Date' to datetime.
-
+"""
+We can use `pd.to_datetime()` function to convert columns 'Order Date' and 'Ship Date' to datetime.
 """
 
 # example of pd.to_datetime() function
