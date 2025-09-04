@@ -10,6 +10,9 @@ my data science and analytics projects
 5.  Linear regression model using caret
 6.  Python - Analyzing the Spotify and YouTube Dataset
 7.  Python - Analyzing Sales Data
+8.  Python - API Request
+9.  Python - ATM method
+10. Python - Pao Ying Chub Game
 
 this is bootcamp runs about 4 months, 10  sprints.
 
@@ -27,7 +30,7 @@ this is bootcamp runs about 4 months, 10  sprints.
 ### contact information 
 reach out to me at Email :  napha.phayak@gmail.com 
 
-Website :https://naphaphayak.wordpress.com
+~Website :https://naphaphayak.wordpress.com~
 
 
 
