@@ -1,21 +1,21 @@
 # Data science Bootcamp Batch 10 
-my data science and analytics projects
+data science and analytics projects
 
 ## my personal projects
 
-- 1. SQL suppermarket analytics
-- 2. SQL churn analytics
-3. R programming - rock paper crissor
-- 4. looker GA4 dashboard
-5.  Linear regression model using caret
-6.  Python - Analyzing the Spotify and YouTube Dataset
-7.  Python - Analyzing Sales Data
-8.  Python - API Request
-9.  Python - ATM method
-10. Python - Pao Ying Chub Game
+1. SQL - Intro to SQL 
+2. SQL - Intermediate SQL 
+3. R programming - rock paper scrissor game 
+4. R programming - Analyzing the nycflight23 
+5. R programming - Linear Regression Model for Titanic Dataset Analysis    
+~ 6. R programming - Data visualization for diamonds dataset ~
+7. Python - Analyzing the Spotify and YouTube Dataset
+8. Python - Analyzing Sales Data
+9. Python - API Request
+10. Python - ATM method
+11. Python - Pao Ying Chub Game 
 
 this is bootcamp runs about 4 months, 10  sprints.
-
 - Google Sheets
 - Databases
 - R programing
@@ -23,9 +23,9 @@ this is bootcamp runs about 4 months, 10  sprints.
 - Data visualization
 - Statistic
 - Machine Learning
-- Websitet with Wordpress
+~ - Websitet with Wordpress ~
 - Python
-- Dashboard
+~ - Dashboard ~
 
 ### contact information 
 reach out to me at Email :  napha.phayak@gmail.com 
