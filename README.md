@@ -3,11 +3,13 @@ my data science and analytics projects
 
 ## my personal projects
 
-1. SQL  suppermarket analytics
-2. SQL churn analytics
+- 1. SQL suppermarket analytics
+- 2. SQL churn analytics
 3. R programming - rock paper crissor
-4. looker GA4 dashboard
-5.  Linear regression model using caret 
+- 4. looker GA4 dashboard
+5.  Linear regression model using caret
+6.  Python - Analyzing the Spotify and YouTube Dataset
+7.  Python - Analyzing Sales Data
 
 this is bootcamp runs about 4 months, 10  sprints.
 
