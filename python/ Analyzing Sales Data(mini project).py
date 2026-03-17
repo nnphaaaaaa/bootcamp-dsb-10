@@ -1,7 +1,7 @@
 
 ## https://colab.research.google.com/drive/1M1u4NRAryNIgQm90hjpvpl9P1j8hi9Xa?usp=sharing
 
-# Project : spotify_youtube_dataset with python
+# Project : Analyzing Sales Data(mini project)
 
 ## Author : Naphaphon Phayakkapes
 
