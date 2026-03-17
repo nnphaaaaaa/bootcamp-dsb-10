@@ -48,8 +48,7 @@ SELECT
 	b,title
 FROM artists as A
 JOIN albums AS B
-ON A.artistid = B.artistid
---ON PK = FK
+ON A.artistid = B.artistid --ON PK = FK
 ;
 
 select 
