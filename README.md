@@ -5,7 +5,7 @@ data science and analytics projects
 
 1. SQL - Intro to SQL 
 2. SQL - Intermediate SQL 
-3. R programming - rock paper scrissor game 
+3. R programming - rock paper scissor game
 4. R programming - Analyzing the nycflight23 
 5. R programming - Linear Regression Model for Titanic Dataset Analysis    
 ~6. R programming - Data visualization for diamonds dataset~
