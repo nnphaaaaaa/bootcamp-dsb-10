@@ -10,8 +10,8 @@ data science and analytics projects
 5. R programming - Linear Regression Model for Titanic Dataset Analysis    
 ~6. R programming - Data visualization for diamonds dataset~
 7. Python - Analyzing the Spotify and YouTube Dataset
-8. Python - Analyzing Sales Data
-9. Python - API Request
+8. Python - Analyzing Sales Data(mini project)
+9. Python - Public API Request
 10. Python - ATM method
 11. Python - Pao Ying Chub Game
 12. Python - Tic Tac Toe Game 
