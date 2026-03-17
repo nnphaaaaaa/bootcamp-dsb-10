@@ -1,10 +1,11 @@
 
-# Project analyzed sales (mini project)
+## https://colab.research.google.com/drive/1M1u4NRAryNIgQm90hjpvpl9P1j8hi9Xa?usp=sharing
 
-# - Analyzing Sales Data  
+# Project : spotify_youtube_dataset with python
 
-## Author: Naphaphon Phayakkapes
+## Author : Naphaphon Phayakkapes
 
+## Language : Python
 
 # import data
 import numpy as np
