@@ -207,8 +207,9 @@ df_sales_month = df_clean.groupby('YearMonth')['Sales'].sum().reset_index()
 df_sales_month['YearMonth'] = df_sales_month['YearMonth'].dt.to_timestamp()
 
   #create the line plot
+sns.set_theme(style="whitegrid")
 plt.figure(figsize=(12, 6))
-plt.plot(df_sales_month['YearMonth'], df_sales_month['Sales'])
+plt.plot(df_sales_month['YearMonth'], df_sales_month['Sales'], marker='o')
 plt.xlabel('Date')
 plt.ylabel('Sales')
 plt.title('Total Sales Over Time')
@@ -236,10 +237,32 @@ df_sale_month['YearMonth'] = df_sale_month[ 'Year' ].astype(str) + "-" + df_sale
 plt.figure(figsize=(10, 6))
 for year in df_clean['Year'].unique():
     year_data = df_sale_month[df_sale_month['Year'] == year]
-    plt.plot(year_data['Month'], year_data['Sales'], label=year)
+    plt.plot(year_data['Month'], year_data['Sales'], label=year, marker='o')
 
 plt.xlabel('Month')
 plt.ylabel('Sales')
 plt.title('Year Sales by Month')
 plt.legend()
 plt.show()
+
+
+## ---------- 4th plot ---------- ##
+
+cat_data = df.groupby('Category')[['Sales', 'Profit']].sum().reset_index()
+cat_melted = cat_data.melt(id_vars='Category', var_name='Metric', value_name='Amount')
+
+plt.subplots(figsize=(10, 6))
+sns.barplot(data=cat_melted, x='Category', y='Amount', hue='Metric')
+plt.title('Total Sales vs. Profit by Category')
+plt.savefig('category_sales_profit.png')
+
+
+# TODO Bonus - use np.where() to create new column in dataframe to help you answer your own questions
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv('sample-store.csv')
+df['Profit_Status'] = np.where(df['Profit'] > 50, 'High Profit', 'Normal/Low Profit')
+
+df.head(10)
+
