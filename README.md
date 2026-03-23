@@ -11,10 +11,11 @@ data science and analytics projects
 ~6. R programming - Data visualization for diamonds dataset~
 7. Python - Analyzing the Spotify and YouTube Dataset
 8. Python - Analyzing Sales Data(mini project)
-9. Python - Public API Request
+~9. Python - Public API Request~
 10. Python - ATM method
 11. Python - Pao Ying Chub Game
-12. Python - Tic Tac Toe Game 
+12. Python - Tic Tac Toe Game
+13. Python - Web scrapping 
 
 this is bootcamp runs about 4 months, 10  sprints.
 - Google Sheets
