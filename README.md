@@ -15,7 +15,8 @@ data science and analytics projects
 10. Python - ATM method
 11. Python - Pao Ying Chub Game
 12. Python - Tic Tac Toe Game
-13. Python - Web scrapping 
+13. Python - Web scrapping
+14. Python - Matplotlib
 
 this is bootcamp runs about 4 months, 10  sprints.
 - Google Sheets
