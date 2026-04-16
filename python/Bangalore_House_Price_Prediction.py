@@ -6,7 +6,7 @@
 
 ## Language : Python
 
-## Article : 
+## Article : https://naphaphayak.wordpress.com/2026/04/16/bangalore-house-price-prediction-%e0%b9%82%e0%b8%94%e0%b8%a2%e0%b9%83%e0%b8%8a%e0%b9%89-machine-learning-%e0%b9%81%e0%b8%9a%e0%b8%9a-end-to-end-real-estate-price-prediction/
 
 ## 1. Library & Data Loading
 
