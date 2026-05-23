@@ -216,6 +216,10 @@ for name, clf in zip(names, classifiers):
     accuracy_scores.append(score)
     print(name ,' : ' , score)
 
+classifiers_performance = pd.DataFrame({"Classifiers": names, "Accuracy Scores": accuracy_scores})
+classifiers_performance
+classifiers_performance.sort_values(by = 'Accuracy Scores' , ascending = False)[['Classifiers', 'Accuracy Scores']]
+
 
 ## Slove problem Class Imbalance by SMOTE
 print('Before SMOTE — label 0: {}'.format(sum(y_train == 0)))
@@ -240,6 +244,13 @@ models = [
     XGBClassifier()
 ]
 
+metrics_cols = ['model_name','test_accuracy','test_precision','test_recall','test_f1']
+model_name=[]
+test_acuracy=[]
+test_precision=[]
+test_recall=[]
+test_f1=[]
+
 scoring = ['accuracy', 'precision', 'recall', 'f1']
 for model in models:
     cv_results = cross_validate(model, X_train_s, y_train_s, cv=5,
@@ -249,6 +260,7 @@ for model in models:
     test_precision.append(round(cv_results['test_precision'].mean(), 3) * 100)
     test_recall.append(round(cv_results['test_recall'].mean(), 3) * 100)
     test_f1.append(round(cv_results['test_f1'].mean(), 3) * 100)
+
 
 metrics_data = [model_name, test_acuracy, test_precision, test_recall, test_f1]
 m = {n:m for n,m in zip(metrics_cols,metrics_data)}
