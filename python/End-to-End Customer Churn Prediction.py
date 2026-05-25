@@ -1,4 +1,4 @@
-## preduct_customer_churn_with_python
+## customer churn prediction
 ## Author : Naphaphon Phayakkapes 
 ## link : https://colab.research.google.com/drive/1Z4Y6waYXG2BxfeoNsYwKEtXvMIsPUrdf?usp=sharing
 ## website : https://naphaphayak.wordpress.com/2026/05/26/end-to-end-customer-churn-prediction-%e0%b8%aa%e0%b8%a3%e0%b9%89%e0%b8%b2%e0%b8%87%e0%b9%82%e0%b8%a1%e0%b9%80%e0%b8%94%e0%b8%a5%e0%b8%97%e0%b8%b3%e0%b8%99%e0%b8%b2%e0%b8%a2-customer-churn-%e0%b8%94/
